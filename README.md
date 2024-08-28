@@ -1,17 +1,18 @@
-![Cover](https://github.com/nephcode/underconstruction/blob/main/images/github/githubReadmeHeader.png)
+![Cover](https://github.com/nephcode/underconstruction-react/blob/main/.github/images/githubReadmeHeader.png)
 
 <!-- ∵ ƸӜƷ ∴∵ ƸӜƷ ∴∵ ƸӜƷ ∴∵ ƸӜƷ ∴∵ ƸӜƷ ∴∵ ƸӜƷ ∴∵ ƸӜƷ ∴∵ ƸӜƷ ∴∵ ƸӜƷ ∴∵ ƸӜƷ ∴∵ ƸӜƷ ∴∵ ƸӜƷ ∴ -->
 
-# YOUCODEUSE
+# UNDERCONSTRUCTION REACT
 
-SINCE PYRAMIDS
+Template first init project with `vite``react`on `bun runtime`
 
 ## PROJECT DELIVERIES
 
-| WHAT FOR       | WHEN   |
-| :------------- | ------ |
-| ME             | `2024` |
-| SAVE THE WORLD | `2024` |
+| WHAT FOR               | WHEN         |
+| :--------------------- | ------------ |
+| Deadline MVP           | `18-03-2024` |
+| Deadline CERTIFICATION | `15-04-2024` |
+
 
 ## INFORMATIONS
 
@@ -30,6 +31,8 @@ SINCE PYRAMIDS
 | TECHNO   | SPEC   |
 | :------- | ------ |
 | FRONTEND | `SASS` |
+| BACKEND |`BUN`|
+| BUNDLE |`VITE`|
 
 ## RUNNING THE APPS
 
@@ -41,4 +44,4 @@ git branch release
 
 ```
 
-![Cover](https://github.com/nephcode/underconstruction/blob/main/images/github/githubReadmeFooter.png)
+![Cover](https://github.com/nephcode/underconstruction-react/blob/main/.github/images/githubReadmeFooter.png)
