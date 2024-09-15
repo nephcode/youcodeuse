@@ -1,4 +1,4 @@
-import scssHeader from './Header.module.scss';
+import scssHeader from './header.module.scss';
 
 import version from '../../components/Version';
 const Header = () => {
