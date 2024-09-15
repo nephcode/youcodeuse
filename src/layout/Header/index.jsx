@@ -1,8 +1,10 @@
+import scssHeader from './Header.module.scss';
+
 const Header = () => {
   return (
     <header>
-      <h1>Attention, this is not an exercice</h1>
+      <h1>Nephelim Cohen</h1>
     </header>
-  )
-}
+  );
+};
 export default Header;

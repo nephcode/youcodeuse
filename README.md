@@ -2,9 +2,9 @@
 
 <!-- ∵ ƸӜƷ ∴∵ ƸӜƷ ∴∵ ƸӜƷ ∴∵ ƸӜƷ ∴∵ ƸӜƷ ∴∵ ƸӜƷ ∴∵ ƸӜƷ ∴∵ ƸӜƷ ∴∵ ƸӜƷ ∴∵ ƸӜƷ ∴∵ ƸӜƷ ∴∵ ƸӜƷ ∴ -->
 
-# UNDERCONSTRUCTION REACT
+# YOUCODEUSE
 
-Template first init project with `vite``react`on `bun runtime`
+Template first init project with ` vite``react `on `bun runtime`
 
 ## PROJECT DELIVERIES
 
@@ -12,7 +12,6 @@ Template first init project with `vite``react`on `bun runtime`
 | :--------------------- | ------------ |
 | Deadline MVP           | `18-03-2024` |
 | Deadline CERTIFICATION | `15-04-2024` |
-
 
 ## INFORMATIONS
 
@@ -22,26 +21,16 @@ Template first init project with `vite``react`on `bun runtime`
 | Instagram | [https://www.instagram.com/](#)        |
 | www       | [#underconstution](#underconstruction) |
 
-| WHO IS   | FOR             |      COMPANY      | CONTACT | DISCORD |
-| :------- | --------------- | :---------------: | ------- | :-----: |
-| Nephelim | Head of concept | Underconstruction | #       |   YES   |
+| WHO IS   | FOR             |   COMPANY    | CONTACT | DISCORD |
+| :------- | --------------- | :----------: | ------- | :-----: |
+| Nephelim | Head of concept | Illuminateam | #       |   YES   |
 
 ## TECHNO
 
 | TECHNO   | SPEC   |
 | :------- | ------ |
 | FRONTEND | `SASS` |
-| BACKEND |`BUN`|
-| BUNDLE |`VITE`|
-
-## RUNNING THE APPS
-
-Create branch
-
-```
-git branch dev
-git branch release
-
-```
+| BACKEND  | `BUN`  |
+| BUNDLE   | `VITE` |
 
 ![Cover](https://github.com/nephcode/underconstruction-react/blob/main/.github/images/githubReadmeFooter.png)

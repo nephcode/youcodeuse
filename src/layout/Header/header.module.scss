@@ -1,0 +1,8 @@
+@use '../../scss/colors.module.scss' as colors;
+
+header {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    @include colors.backgroundHeaderGradient(colors.$colorMain, colors.$colorSecondary);
+}

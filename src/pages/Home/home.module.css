@@ -1,0 +1,21 @@
+main {
+  flex-grow: 1;
+  min-height: 50vh;
+}
+main .profil {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 30px;
+}
+main .skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  padding: auto;
+}
+main .skills ul li {
+  list-style: none;
+}/*# sourceMappingURL=home.module.css.map */

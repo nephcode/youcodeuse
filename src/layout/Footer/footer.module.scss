@@ -1,0 +1,58 @@
+@use '../../scss/colors.module.scss' as colors;
+
+footer {
+    position: sticky;
+
+    //
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 150px;
+    border-top: 4px solid colors.$colorWhite;
+    background-color: colors.$backgroundFooter;
+    color: white;
+
+    .punchline {
+        height: clamp(50px, 10vh, 70px);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+
+        img {
+            max-height: 70px;
+            line-clamp: 1;
+        }
+    }
+
+    .pyramides {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: -78px;
+        height: clamp(50px, 10vh, 70px);
+        left: 50%; // Ajuste la position horizontale de la pyramide
+        transform: translateX(-50%); // Centre la pyramide si nécessaire
+        z-index: -1; // Assure-toi qu'elle est par-dessus le footer
+
+
+        img {
+            height: 150px;
+            max-height: 80px;
+            line-clamp: 1;
+        }
+    }
+
+
+
+    a {
+        color: white;
+        text-decoration: none;
+    }
+
+    &:hover {
+        color: colors.$colorMain;
+    }
+
+}

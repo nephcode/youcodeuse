@@ -1,0 +1,28 @@
+main {
+    flex-grow: 1;
+    min-height: 50vh;
+
+    .profil {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+
+        margin-top: 30px;
+    }
+
+    .skills {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 20px;
+        padding: auto;
+
+
+        ul {
+            li {
+                list-style: none;
+            }
+        }
+    }
+}

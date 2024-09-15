@@ -1,0 +1,36 @@
+//============================================= YOUCODEUSE ===========//
+// COLORS ============================================================//
+//==================================== By NEPHELIM ============ 2024 =//
+
+// Colors Global -- --------------------------------------------------//
+$backgroundSite: #000516 !default;
+$backgroundSiteLight: #ffffff !default;
+$backgroundSiteDark: #000516 !default;
+
+$backgroundFooter: #03002F !default;
+$backgroundHeader: #FF0042 !default;
+
+$backgroundGlobalElement: #9356dc !default;
+$colorGreyBackground : #FAFAFA;
+
+// Colors Components ------------------------------------------------//
+$colorMain : #FF0042;
+$colorSecondary : #FF007E;
+$colorTernary : #DB8876;
+$colorWhite : #FFFFFF;
+$colorBlack : #000000;
+$colorGrey : #E3E3E3;
+
+$backgroundCard: #F6F6F6 !default;
+
+
+// Colors Typo ------------------------------------------------------//
+$colorTypoGrey : #757575;
+$colorTypoGreyBis :#312E2E;
+$colorTypoBlack : #000000;
+$colorTypoWhite : #ffffff;
+
+// Mixins -----------------------------------------------------------//
+@mixin backgroundHeaderGradient($startColor, $endColor) {
+    background: linear-gradient(to right, $startColor, $endColor);
+}
