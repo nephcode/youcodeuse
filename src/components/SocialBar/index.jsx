@@ -2,7 +2,7 @@
 //import { React } from 'react';
 import { Link } from 'react-router-dom';
 // Import SocialBar styles ============================//
-import scssSocialBar from './socialBar.module.scss';
+import scssSocialBar from './socialbar.module.scss';
 //import data =========================================//
 import socialData from '../../data/social.json';
 
