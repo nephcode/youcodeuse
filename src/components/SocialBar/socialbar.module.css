@@ -22,7 +22,7 @@ h1 {
   display: flex;
   justify-content: start;
   align-items: center;
-  font-family: Montserrat;
+  font-family: "Montserrat";
   text-transform: uppercase;
   font-weight: 400;
   font-size: 0.3rem;
@@ -43,11 +43,8 @@ h1 {
   margin: 0px 71px 0px -4%;
 }
 .socialBar .socialElement a {
-  color: #fff;
+  color: #ffffff;
   text-decoration: none;
   font-size: 1.5rem;
   transition: all 1s;
-}
-.socialBar .socialElement a:hover {
-  color: pink;
 }/*# sourceMappingURL=socialbar.module.css.map */

@@ -3,7 +3,7 @@ import scssVersion from './version.module.scss';
 const version = () => {
   return (
     <div className={scssVersion.version}>
-      <sup>v 1.1.0</sup>
+      <sup>v 1.2.1</sup>
     </div>
   );
 };

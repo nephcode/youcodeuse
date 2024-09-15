@@ -8,11 +8,11 @@
         display: flex;
         justify-content: start;
         align-items: center;
-        font-family: #{typo.$fontDefault};
+        font-family: typo.$fontDefault;
         text-transform: uppercase;
         font-weight: 400;
         font-size: 0.3rem;
-        background: linear-gradient(to right, #{colors.$colorMain}, #{colors.$colorSecondary});
+        background: linear-gradient(to right, colors.$colorMain, colors.$colorSecondary);
         margin: 8px auto;
         border-radius: 100px 20px 20px 100px;
         padding: 10px 10px;
@@ -33,16 +33,10 @@
         }
 
         a {
-            color: #fff;
+            color: colors.$colorTypoWhite;
             text-decoration: none;
             font-size: 1.5rem;
             transition: all 1s;
-
-            &:hover {
-                color: pink;
-            }
         }
-
-
     }
 }
