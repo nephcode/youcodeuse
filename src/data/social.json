@@ -3,24 +3,24 @@
         "id": 1,
         "name": "Malt",
         "url": "https://www.malt.fr/profile/nephelim",
-        "image_url": "../assets/social/malt.svg"
+        "image_url": "/social/malt.svg"
     },
     {
         "id": 2,
-        "name": "X",
-        "url": "https://www.x.com",
-        "image_url": "../assets/social/x.svg"
+        "name": "Salesforce",
+        "url": "https://www.salesforce.com/trailblazer/nephelim",
+        "image_url": "/social/salesforce.svg"
     },
     {
         "id": 3,
-        "name": "",
+        "name": "Github",
         "url": "https://www.github.com/nephcode",
-        "image_url": "../assets/social/github.svg"
+        "image_url": "/social/github.svg"
     },
     {
         "id": 4,
         "name": "LinkedIn",
         "url": "https://www.linkedin.com/in/nephelim",
-        "image_url": "../assets/social/linkedin.svg"
+        "image_url": "/social/linkedin.svg"
     }
 ]

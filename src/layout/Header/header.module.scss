@@ -7,6 +7,12 @@ header {
     width: 100%;
     background: linear-gradient(to right, colors.$colorMain, colors.$colorSecondary);
 
+    h1 {
+        font-size: clamp(2rem, 5vw, 3rem);
+        white-space: nowrap;
+        ;
+    }
+
     .headerContent {
         &::after {
             content: '';

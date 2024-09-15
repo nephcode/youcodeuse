@@ -1,25 +1,48 @@
+@use '../../scss/colors.module.scss' as colors;
+@use '../../scss/typo.module.scss' as typo;
+
 .socialBar {
-    ul {
+    margin-bottom: 50px;
+
+    .socialElement {
         display: flex;
-        justify-content: center;
+        justify-content: start;
         align-items: center;
-        margin: 0;
-        padding: 0;
-        list-style: none;
+        font-family: #{typo.$fontDefault};
+        text-transform: uppercase;
+        font-weight: 400;
+        font-size: 0.3rem;
+        background: linear-gradient(to right, #{colors.$colorMain}, #{colors.$colorSecondary});
+        margin: 8px auto;
+        border-radius: 100px 20px 20px 100px;
+        padding: 10px 10px;
+        width: clamp(350px, 10vw, 35%);
+        transition: all 0.3s;
 
-        li {
-            margin: 0 10px;
 
-            a {
-                color: #fff;
-                text-decoration: none;
-                font-size: 1.5rem;
-                transition: all 0.3s;
+        &:hover {
+            transform: scale(1.03);
+            z-index: 0;
+        }
 
-                &:hover {
-                    color: #f00;
-                }
+
+        img {
+            width: 65px;
+            height: 40px;
+            margin: 0px 71px 0px -4%;
+        }
+
+        a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.5rem;
+            transition: all 1s;
+
+            &:hover {
+                color: pink;
             }
         }
+
+
     }
 }

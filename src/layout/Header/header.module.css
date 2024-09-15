@@ -5,6 +5,10 @@ header {
   width: 100%;
   background: linear-gradient(to right, #FF0042, #FF007E);
 }
+header h1 {
+  font-size: clamp(2rem, 5vw, 3rem);
+  white-space: nowrap;
+}
 header .headerContent::after {
   content: "";
   width: 100%;

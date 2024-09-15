@@ -15,14 +15,14 @@ footer {
 
 
     .punchline {
-        height: clamp(50px, 10vh, 70px);
+        height: clamp(30px, 5vh, 55px);
         display: flex;
         justify-content: center;
         align-items: center;
         height: 100%;
 
         img {
-            max-height: 70px;
+            max-height: clamp(30px, 5vh, 55px);
             line-clamp: 1;
         }
     }

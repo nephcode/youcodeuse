@@ -3,6 +3,9 @@ import scssHome from './home.module.scss';
 // import images =============================================================//
 import profil from './profil.png';
 
+// import components =========================================================//
+import SocialBar from '../../components/SocialBar';
+
 // Home component ============================================================//
 const Home = () => {
   return (
@@ -21,6 +24,7 @@ const Home = () => {
           <li>🍀 DESIGN : Figma, Affinity Designer, FinalCut</li>
         </ul>
       </div>
+      <SocialBar />
     </main>
   );
 };

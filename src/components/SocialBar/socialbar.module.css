@@ -1,20 +1,53 @@
-.socialBar ul {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@font-face {
+  font-family: "Futura";
+  src: url("../assets/fonts/Futura.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+h1 {
+  font-size: 3rem;
+  font-family: "Futura";
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #ffffff;
   margin: 0;
   padding: 0;
-  list-style: none;
 }
-.socialBar ul li {
-  margin: 0 10px;
+
+.socialBar {
+  margin-bottom: 50px;
 }
-.socialBar ul li a {
+.socialBar .socialElement {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  font-family: Montserrat;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 0.3rem;
+  background: linear-gradient(to right, #FF0042, #FF007E);
+  margin: 8px auto;
+  border-radius: 100px 20px 20px 100px;
+  padding: 10px 10px;
+  width: clamp(350px, 10vw, 35%);
+  transition: all 0.3s;
+}
+.socialBar .socialElement:hover {
+  transform: scale(1.03);
+  z-index: 0;
+}
+.socialBar .socialElement img {
+  width: 65px;
+  height: 40px;
+  margin: 0px 71px 0px -4%;
+}
+.socialBar .socialElement a {
   color: #fff;
   text-decoration: none;
   font-size: 1.5rem;
-  transition: all 0.3s;
+  transition: all 1s;
 }
-.socialBar ul li a:hover {
-  color: #f00;
+.socialBar .socialElement a:hover {
+  color: pink;
 }/*# sourceMappingURL=socialbar.module.css.map */
