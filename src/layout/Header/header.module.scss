@@ -4,5 +4,14 @@ header {
     display: flex;
     justify-content: center;
     width: 100%;
-    @include colors.backgroundHeaderGradient(colors.$colorMain, colors.$colorSecondary);
+    background: linear-gradient(to right, colors.$colorMain, colors.$colorSecondary);
+
+    .headerContent {
+        &::after {
+            content: '';
+            width: 100%;
+            height: 5px;
+            color: colors.$colorTypoWhite;
+        }
+    }
 }

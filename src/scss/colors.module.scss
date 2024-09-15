@@ -32,5 +32,5 @@ $colorTypoWhite : #ffffff;
 
 // Mixins -----------------------------------------------------------//
 @mixin backgroundHeaderGradient($startColor, $endColor) {
-    background: linear-gradient(to right, $startColor, $endColor);
+    background-color: linear-gradient(to right, $startColor, $endColor);
 }
