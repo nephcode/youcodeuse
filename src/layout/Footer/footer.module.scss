@@ -11,6 +11,8 @@ footer {
     border-top: 4px solid colors.$colorWhite;
     background-color: colors.$backgroundFooter;
     color: white;
+    box-shadow: 1px 0px 11px 1px rgba(255, 255, 255, 0.75);
+
 
     .punchline {
         height: clamp(50px, 10vh, 70px);
@@ -35,13 +37,20 @@ footer {
         left: 50%; // Ajuste la position horizontale de la pyramide
         transform: translateX(-50%); // Centre la pyramide si nécessaire
         z-index: -1; // Assure-toi qu'elle est par-dessus le footer
-
+        will-change: filter;
+        transition: filter .3s;
+        filter: drop-shadow(-10px -10px 4rem colors.$colorWhite);
 
         img {
             height: 150px;
             max-height: 80px;
             line-clamp: 1;
+
+
         }
+
+
+
     }
 
 
