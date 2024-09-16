@@ -39,6 +39,6 @@ Personal Business Hub made with love
 | Color | White             | `#FFFFFF`                  |
 | Color | Black             | `#000000`                  |
 | Typo  | Default           | `Montserrat` Variable 16px |
-| Typo  | Hn ` h1``h2``h3 ` | `Futura` 1.3 Rem           |
+| Typo  | Hn `h1` `h2` `h3` | `Futura` 1.3 Rem           |
 
 ![Cover](https://github.com/nephcode/youcodeuse/blob/main/.github/images/githubReadmeFooter.png)

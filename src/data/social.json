@@ -22,5 +22,11 @@
         "name": "LinkedIn",
         "url": "https://www.linkedin.com/in/nephelim",
         "image_url": "/social/linkedin.svg"
+    },
+    {
+        "id": 5,
+        "name": "Calendly",
+        "url": "https://calendly.com/nephcohen/dev-tech-call",
+        "image_url": "/social/calendly.svg"
     }
 ]

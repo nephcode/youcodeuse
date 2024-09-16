@@ -9,11 +9,23 @@ import socialData from '../../data/social.json';
 // SocialBar component ================================//
 const socialBar = () => {
   return (
-    <section className={scssSocialBar.socialBar}>
+    <section
+      className={scssSocialBar.socialBar}
+      role="complementary"
+      aria-label="Liens vers les réseaux professionels"
+    >
       {socialData.map((social) => (
-        <div key={social.id} className={scssSocialBar.socialElement}>
-          <img src={social.image_url} alt={social.name} />
-          <Link to={social.url} target="_blank">
+        <div
+          key={social.id}
+          className={scssSocialBar.socialElement}
+          data-id={social.id}
+        >
+          <img src={social.image_url} alt="" aria-hidden="true" />
+          <Link
+            to={social.url}
+            target="_blank"
+            aria-label={`Continuer vers ${social.name}`}
+          >
             {social.name}
           </Link>
         </div>

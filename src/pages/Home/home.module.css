@@ -18,6 +18,16 @@ main .skills {
   margin: 20px;
   padding: auto;
 }
+@media screen and (min-height: 512px) {
+  main .skills h2 {
+    text-align: center;
+  }
+}
+@media screen and (min-height: 512px) {
+  main .skills ul {
+    padding: 0;
+  }
+}
 main .skills ul li {
   list-style: none;
 }/*# sourceMappingURL=home.module.css.map */
