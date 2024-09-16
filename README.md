@@ -1,25 +1,20 @@
-![Cover](https://github.com/nephcode/underconstruction-react/blob/main/.github/images/githubReadmeHeader.png)
+![Cover](https://github.com/nephcode/youcodeuse/blob/main/.github/images/githubReadmeHeader.png)
 
 <!-- ∵ ƸӜƷ ∴∵ ƸӜƷ ∴∵ ƸӜƷ ∴∵ ƸӜƷ ∴∵ ƸӜƷ ∴∵ ƸӜƷ ∴∵ ƸӜƷ ∴∵ ƸӜƷ ∴∵ ƸӜƷ ∴∵ ƸӜƷ ∴∵ ƸӜƷ ∴∵ ƸӜƷ ∴ -->
 
 # YOUCODEUSE
 
-Template first init project with ` vite``react `on `bun runtime`
-
-## PROJECT DELIVERIES
-
-| WHAT FOR               | WHEN         |
-| :--------------------- | ------------ |
-| Deadline MVP           | `18-03-2024` |
-| Deadline CERTIFICATION | `15-04-2024` |
+Personal Business Hub made with love
 
 ## INFORMATIONS
 
-| WHERE     | URL                                    |
-| :-------- | -------------------------------------- |
-| Discord   | [#](#)                                 |
-| Instagram | [https://www.instagram.com/](#)        |
-| www       | [#underconstution](#underconstruction) |
+| WHERE       | URL                                                           |
+| :---------- | ------------------------------------------------------------- |
+| LinkedIn    | [Linkedin](https://www.linkedin.com/in/nephelim)              |
+| Github      | [Github](https://www.github.com/nephcode)                     |
+| Salesforce  | [Salesforce](https://www.salesforce.com/trailblazer/nephelim) |
+| BusinessHub | [Youcodeuse](https://youcodeuse.com)                          |
+| Malt        | [Malt](https://www.malt.fr/profile/nephelim)                  |
 
 | WHO IS   | FOR             |   COMPANY    | CONTACT | DISCORD |
 | :------- | --------------- | :----------: | ------- | :-----: |
@@ -27,10 +22,23 @@ Template first init project with ` vite``react `on `bun runtime`
 
 ## TECHNO
 
-| TECHNO   | SPEC   |
-| :------- | ------ |
-| FRONTEND | `SASS` |
-| BACKEND  | `BUN`  |
-| BUNDLE   | `VITE` |
+| TECHNO   | SPEC                        |
+| :------- | --------------------------- |
+| FRONTEND | `REACT 18.3` `SASS`         |
+| BACKEND  | `BUN` `REST API` `SUPABASE` |
+| BUNDLE   | `VITE`                      |
 
-![Cover](https://github.com/nephcode/underconstruction-react/blob/main/.github/images/githubReadmeFooter.png)
+# DESIGN SYSTEM
+
+| TYPE  | ELEMENT           | REFERENCE                  |
+| ----- | ----------------- | -------------------------- |
+| Color | Main              | `#FF007E`                  |
+| Color | Secondary         | `#FF0042`                  |
+| Color | Background        | `#000516`                  |
+| Color | Background Footer | `#03002F`                  |
+| Color | White             | `#FFFFFF`                  |
+| Color | Black             | `#000000`                  |
+| Typo  | Default           | `Montserrat` Variable 16px |
+| Typo  | Hn ` h1``h2``h3 ` | `Futura` 1.3 Rem           |
+
+![Cover](https://github.com/nephcode/youcodeuse/blob/main/.github/images/githubReadmeFooter.png)
