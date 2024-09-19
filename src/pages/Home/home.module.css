@@ -9,25 +9,4 @@ main .profil {
   width: 100%;
   margin-top: 30px;
   filter: drop-shadow(0px 0px 0.6rem rgba(255, 255, 255, 0.5));
-}
-main .skills {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 20px;
-  padding: auto;
-}
-@media screen and (min-height: 512px) {
-  main .skills h2 {
-    text-align: center;
-  }
-}
-@media screen and (min-height: 512px) {
-  main .skills ul {
-    padding: 0;
-  }
-}
-main .skills ul li {
-  list-style: none;
 }/*# sourceMappingURL=home.module.css.map */

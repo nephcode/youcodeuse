@@ -15,33 +15,6 @@ main {
 
     }
 
-    .skills {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin: 20px;
-        padding: auto;
 
-        @media screen and (min-height: 512px) {
-            h2 {
-                text-align: center;
-            }
-
-        }
-
-        ul {
-            @media screen and (min-height: 512px) {
-                padding: 0;
-
-            }
-
-
-            li {
-                list-style: none;
-
-            }
-        }
-    }
 
 }
