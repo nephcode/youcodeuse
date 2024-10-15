@@ -26,7 +26,7 @@ Personal Business Hub made with love
 | :------- | --------------------------- |
 | FRONTEND | `REACT 18.3` `SASS`         |
 | BACKEND  | `BUN` `REST API` `SUPABASE` |
-| BUNDLE   | `VITE`                      |
+| BUNDLER  | `VITE` Or `DENO 2.0`        |
 
 # DESIGN SYSTEM
 
@@ -40,5 +40,7 @@ Personal Business Hub made with love
 | Color | Black             | `#000000`                  |
 | Typo  | Default           | `Montserrat` Variable 16px |
 | Typo  | Hn `h1` `h2` `h3` | `Futura` 1.3 Rem           |
+
+<!-- ∵ ƸӜƷ ∴∵ ƸӜƷ ∴∵ ƸӜƷ ∴∵ ƸӜƷ ∴∵ ƸӜƷ ∴∵ ƸӜƷ ∴∵ ƸӜƷ ∴∵ ƸӜƷ ∴∵ ƸӜƷ ∴∵ ƸӜƷ ∴∵ ƸӜƷ ∴∵ ƸӜƷ ∴ -->
 
 ![Cover](https://github.com/nephcode/youcodeuse/blob/main/.github/images/githubReadmeFooter.png)
