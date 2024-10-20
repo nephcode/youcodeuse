@@ -1,10 +1,26 @@
+footer {
+  position: relative;
+  display: grid;
+  place-items: center;
+  border-bottom: 4px solid;
+  border-image: linear-gradient(to right, #FF0042, #FF007E) 1;
+}
+footer::after {
+  content: "";
+  position: absolute;
+  bottom: 15px;
+  height: 15px;
+  width: 100%;
+  box-shadow: 0 30px 13px #FF0042;
+}
 footer .punchline {
   width: 150px;
+  margin-bottom: clamp(20px, 5vw, 50px);
 }
 footer .pyramides {
   width: 250px;
-  filter: drop-shadow(-10px -10px 4rem #FF0042);
+  filter: drop-shadow(-10px -10px 1.5rem #FF0042);
 }
 footer .pyramides img {
-  line-height: 0;
+  display: block;
 }/*# sourceMappingURL=footer.module.css.map */
