@@ -1,0 +1,1 @@
+{"version":3,"sourceRoot":"","sources":["typo.module.scss","colors.module.scss","router.module.scss"],"names":[],"mappings":"AAKQ;AAER;EACI;EACA;EACA;EACA;;AASJ;EACI;EACA;EACA;EACA;EAEA,OCKc;EDJd;EACA;;;AEnBJ;EACI,WFMY;AELZ;;;AAGJ;AAAA;AAAA;EAGI;;;AAGJ;EACI;EACA,YDjBa;ECkBb,aFRW;EESX,ODOc;;ACFd;EACI;EACA;EACA;EACA","file":"router.module.css"}

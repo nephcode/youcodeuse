@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@font-face {
+  font-family: "Futura";
+  src: url("../assets/fonts/Futura.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+h1 {
+  font-size: 3rem;
+  font-family: "Futura";
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-size: 16px;
+  /*color-scheme: light dark;*/
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #000516;
+  font-family: "Montserrat";
+  color: #ffffff;
+}
+body [id=root] {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100dvh;
+  min-height: 100vh;
+}/*# sourceMappingURL=router.module.css.map */

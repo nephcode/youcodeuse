@@ -1,15 +1,11 @@
 //============================================= YOUCODEUSE ===========//
 // _GLOBAL ===========================================================//
 //==================================== By NEPHILIM ============ 2024 =//
+//============================================= ARGENTBANK ===========//
+// _ROUTER ===========================================================//
+//==================================== By NEPHELIM ============ 2024 =//
 @use './colors.module.scss' as colors;
 @use './typo.module.scss' as typo;
-
-#root {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    //height: 100vh;
-}
 
 :root {
     font-size: typo.$fontSizeRoot;
@@ -27,8 +23,15 @@ body {
     background: colors.$backgroundSite;
     font-family: typo.$fontDefault;
     color: colors.$colorTypoWhite;
-
     // DARL MODE & LIGHT MODE
     //color: light-dark(colors.$backgroundSiteLight, colors.$backgroundSiteDark);
     //background-color: light-dark(colors.$backgroundSiteLight, colors.$backgroundSiteDark);
+
+    [id="root"] {
+        display: grid;
+        grid-template-rows: auto 1fr auto;
+        min-height: 100dvh;
+        min-height: 100vh;
+
+    }
 }

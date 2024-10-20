@@ -8,7 +8,7 @@ import Footer from './layout/Footer';
 // IMPORT PAGES ==================================================//
 import Home from './pages/Home';
 // IMPORT STYLES =================================================//
-import './scss/router.scss';
+import './scss/router.module.scss';
 // RENDER APPLICATION ============================================//
 createRoot(document.getElementById('root')).render(
   <StrictMode>

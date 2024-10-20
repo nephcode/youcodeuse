@@ -7,11 +7,11 @@ import pyramides from './pyramides.svg';
 const Footer = () => {
   return (
     <footer className={scssFooter.footer}>
-      <div className={scssFooter.pyramides}>
-        <img src={pyramides} alt="Pyramides" />
-      </div>
       <div className={scssFooter.punchline}>
         <img src={keepCalm} alt="Keep Calm & Code" />
+      </div>
+      <div className={scssFooter.pyramides}>
+        <img src={pyramides} alt="Pyramides" />
       </div>
     </footer>
   );

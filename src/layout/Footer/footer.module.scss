@@ -1,69 +1,25 @@
 @use '../../scss/colors.module.scss' as colors;
 
 footer {
-    position: sticky;
-
-    //
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 150px;
-    border-top: 4px solid colors.$colorWhite;
-    background-color: colors.$backgroundFooter;
-    color: white;
-    box-shadow: 1px 0px 11px 1px rgba(255, 255, 255, 0.75);
 
 
     .punchline {
-        height: clamp(30px, 5vh, 55px);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100%;
-
-        img {
-            max-height: clamp(30px, 5vh, 55px);
-            line-clamp: 1;
-        }
+        width: 150px;
     }
 
     .pyramides {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        position: absolute;
-        top: -78px;
-        height: clamp(50px, 11vh, 70px);
-        left: 50%; // Ajuste la position horizontale de la pyramide
-        transform: translateX(-50%); // Centre la pyramide si nécessaire
-        z-index: -1; // Assure-toi qu'elle est par-dessus le footer
-        will-change: filter;
-        transition: filter .3s;
-        filter: drop-shadow(-10px -10px 4rem colors.$colorWhite);
+        width: 250px;
+        filter: drop-shadow(-10px -10px 4rem colors.$colorMain);
 
         img {
-            height: 150px;
-            max-height: 80px;
-            line-clamp: 1;
-
-
+            line-height: 0;
         }
 
 
 
 
 
-    }
 
-
-
-    a {
-        color: white;
-        text-decoration: none;
-    }
-
-    &:hover {
-        color: colors.$colorMain;
     }
 
 }
