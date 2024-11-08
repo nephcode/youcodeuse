@@ -9,7 +9,7 @@
     "id": 2,
     "name": "backend",
     "emoji": "👩🏼‍💻",
-    "details": ["next", "remix", "rest", "sql", "serverless"]
+    "details": ["remix", "nest", "sql", "serverless"]
   },
   {
     "id": 6,
