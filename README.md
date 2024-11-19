@@ -4,7 +4,7 @@
 
 # YOUCODEUSE
 
-Personal Business Hub made with love
+Personal Business Hub made with love 🥰
 
 ## INFORMATIONS
 
